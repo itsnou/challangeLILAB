@@ -26,8 +26,8 @@ const UserModal = ({showModal, setShowModal, owner}) => {
                     <p>Telefono: {user.phone}</p>
                     <p>Genero: {user.gender}</p>
                 </div>
-            </div>
             <button className='closeModal' aria-label='Close modal' onClick={()=> setShowModal(prev => !prev)}>X</button>
+            </div>
         </StyledDiv> : null}
         </>
     );
